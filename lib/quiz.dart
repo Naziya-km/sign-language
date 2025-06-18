@@ -5,7 +5,7 @@ void main() {
 }
 
 class QuizApp extends StatelessWidget {
-  const QuizApp({Key? key}) : super(key: key);
+  const QuizApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -18,6 +18,8 @@ class QuizApp extends StatelessWidget {
 }
 
 class QuizPage extends StatefulWidget {
+  const QuizPage({super.key});
+
   @override
   _QuizPageState createState() => _QuizPageState();
 }
@@ -327,8 +329,7 @@ class _QuizPageState extends State<QuizPage> {
                       ),
                     ),
                   );
-                })
-                .toList(),
+                }),
           ],
         ),
       ),

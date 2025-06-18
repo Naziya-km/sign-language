@@ -13,7 +13,7 @@ class TFLiteService {
   Future<void> loadModel() async {
     try {
       // Load the TFLite model
-      _interpreter = await Interpreter.fromAsset('assets/first_model.tflite');
+      _interpreter = await Interpreter.fromAsset('assets/first_models.tflite');
       await loadLabels();
       _modelLoaded = true;
       print("Model & Labels Loaded Successfully!");

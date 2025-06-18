@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class WordsPage extends StatefulWidget {
+  const WordsPage({super.key});
+
   @override
   _WordsPageState createState() => _WordsPageState();
 }
@@ -206,6 +208,8 @@ class _WordsPageState extends State<WordsPage> {
 }
 
 class SentencesPage extends StatefulWidget {
+  const SentencesPage({super.key});
+
   @override
   _SentencesPageState createState() => _SentencesPageState();
 }

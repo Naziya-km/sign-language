@@ -26,5 +26,35 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/first_model.tflite
+    - assets/first_models.tflite
     - assets/labels.txt
+    - Images/letters.jpg
+    - Images/words.jpg
+    - Images/sents.jpg
+    - Images/logo.png
+    - Images/lettera.jpg
+    - Images/letterb.jpg
+    - Images/letterc.jpg
+    - Images/letterd.jpg
+    - Images/lettert.jpg
+    - Images/letteru.jpg
+    - Images/letterv.jpg
+    - Images/letterw.jpg
+    - Images/letterx.jpg
+    - Images/lettery.jpg
+    - Images/letterz.jpg
+    - Images/goodbye.png
+    - Images/yes.png
+    - Images/no.png
+    - Images/please.png
+    - Images/sorry.png
+    - Images/help.png
+    - Images/excuse.webp
+    - Images/thanku.png
+    - Images/hello.png
+    - Images/howru.png
+    - Images/love.jpg
+    - Images/meet.png
+    - Images/name.webp
+    - Images/seeyou.jpg
+    - Images/logoo.jpg

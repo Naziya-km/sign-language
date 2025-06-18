@@ -66,7 +66,11 @@ class _SignDetectionPageState extends State<SignDetectionPage> {
         children: [
           _cameraController == null || !_cameraController!.value.isInitialized
               ? Center(child: CircularProgressIndicator())
-              : SizedBox(height: 300, child: CameraPreview(_cameraController!)),
+              : SizedBox(
+                height: 500,
+                width: double.infinity,
+                child: CameraPreview(_cameraController!),
+              ),
           SizedBox(height: 20),
           Text(detectedSign, style: TextStyle(fontSize: 24)),
           SizedBox(height: 20),
